@@ -8,4 +8,5 @@ connection.onopen = () => {
 
 connection.onmessage = (event) => {
 	logWindow.innerHTML = event.data
+
 }
